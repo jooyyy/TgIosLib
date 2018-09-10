@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TgIosLib_Example' do
+  pod 'TgIosLib', :path => '../'
+
+  target 'TgIosLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
