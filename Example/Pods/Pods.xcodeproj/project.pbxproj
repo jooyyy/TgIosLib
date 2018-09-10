@@ -15,8 +15,37 @@
 		921CB023A8BB69C8E653F4C5498AA307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9880ABFBF1D558E74E4FA035243E4EEC /* Pods-TgIosLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E5E0078689590C57DFD2FA077842E /* Pods-TgIosLib_Tests-dummy.m */; };
 		9CBDB76EB1FFF75A08C31C96E2CBC711 /* TgIosLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DBC152ED52BB61EE91DB7B4DC71A03 /* TgIosLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82314B72146151E0038D54C /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314A82146151B0038D54C /* UIViewController+swizzling.m */; };
+		A82314B82146151E0038D54C /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314A82146151B0038D54C /* UIViewController+swizzling.m */; };
+		A82314B92146151E0038D54C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314A92146151B0038D54C /* NSString+Util.m */; };
+		A82314BA2146151E0038D54C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314A92146151B0038D54C /* NSString+Util.m */; };
+		A82314BB2146151E0038D54C /* UIView+Efficiency.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AA2146151B0038D54C /* UIView+Efficiency.m */; };
+		A82314BC2146151E0038D54C /* UIView+Efficiency.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AA2146151B0038D54C /* UIView+Efficiency.m */; };
+		A82314BD2146151E0038D54C /* UIColor+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AB2146151C0038D54C /* UIColor+Utils.h */; };
+		A82314BE2146151E0038D54C /* UIColor+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AB2146151C0038D54C /* UIColor+Utils.h */; };
+		A82314BF2146151E0038D54C /* UtilHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AC2146151C0038D54C /* UtilHeader.h */; };
+		A82314C02146151E0038D54C /* UtilHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AC2146151C0038D54C /* UtilHeader.h */; };
+		A82314C12146151E0038D54C /* UIView+Efficiency.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AD2146151C0038D54C /* UIView+Efficiency.h */; };
+		A82314C22146151E0038D54C /* UIView+Efficiency.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314AD2146151C0038D54C /* UIView+Efficiency.h */; };
+		A82314C32146151E0038D54C /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AE2146151C0038D54C /* UIImage+Utils.m */; };
+		A82314C42146151E0038D54C /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AE2146151C0038D54C /* UIImage+Utils.m */; };
+		A82314C52146151E0038D54C /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AF2146151C0038D54C /* UIView+ViewController.m */; };
+		A82314C62146151E0038D54C /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314AF2146151C0038D54C /* UIView+ViewController.m */; };
+		A82314C72146151E0038D54C /* NSString+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B02146151C0038D54C /* NSString+Util.h */; };
+		A82314C82146151E0038D54C /* NSString+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B02146151C0038D54C /* NSString+Util.h */; };
+		A82314C92146151E0038D54C /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314B12146151D0038D54C /* UIColor+Utils.m */; };
+		A82314CA2146151E0038D54C /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314B12146151D0038D54C /* UIColor+Utils.m */; };
+		A82314CB2146151E0038D54C /* UIView+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B22146151D0038D54C /* UIView+ViewController.h */; };
+		A82314CC2146151E0038D54C /* UIView+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B22146151D0038D54C /* UIView+ViewController.h */; };
+		A82314CD2146151E0038D54C /* UIImage+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B32146151D0038D54C /* UIImage+Utils.h */; };
+		A82314CE2146151E0038D54C /* UIImage+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B32146151D0038D54C /* UIImage+Utils.h */; };
+		A82314CF2146151E0038D54C /* UIViewController+swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B42146151D0038D54C /* UIViewController+swizzling.h */; };
+		A82314D02146151E0038D54C /* UIViewController+swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B42146151D0038D54C /* UIViewController+swizzling.h */; };
+		A82314D12146151E0038D54C /* UILabel+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314B52146151D0038D54C /* UILabel+Utils.m */; };
+		A82314D22146151E0038D54C /* UILabel+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A82314B52146151D0038D54C /* UILabel+Utils.m */; };
+		A82314D32146151E0038D54C /* UILabel+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B62146151E0038D54C /* UILabel+Utils.h */; };
+		A82314D42146151E0038D54C /* UILabel+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A82314B62146151E0038D54C /* UILabel+Utils.h */; };
 		C1D1074CDB25436AB08FE33A86351761 /* Pods-TgIosLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F213C95444241EAD391C055FEE4CCBF3 /* Pods-TgIosLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCBA2EB2117F1B0AFA25B5CDD48FF1ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1219766319367D7992AD9E7AF7BBF6 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +68,7 @@
 /* Begin PBXFileReference section */
 		021C92864391AF74C0DD92D4918C1888 /* TgIosLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TgIosLib-prefix.pch"; sourceTree = "<group>"; };
 		03DBC152ED52BB61EE91DB7B4DC71A03 /* TgIosLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TgIosLib-umbrella.h"; sourceTree = "<group>"; };
-		1E6FB37737E11F76B0D6CA6901B2F886 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E6FB37737E11F76B0D6CA6901B2F886 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28F33C1637F4990E817B17B4895E54C9 /* Pods-TgIosLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TgIosLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		2B8955456ABA6ABDFC925082242000CB /* Pods-TgIosLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TgIosLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		33AD1F9D5E9EF2AB81A909F63DFD5668 /* Pods-TgIosLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TgIosLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +80,7 @@
 		5225625B7D3B05ABF91FCFF38052D826 /* Pods-TgIosLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TgIosLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		6545FFC8A7DA3BAA2A9B6624F1FC2413 /* TgIosLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TgIosLib-dummy.m"; sourceTree = "<group>"; };
 		656327861144F74A388AB621CFF92A00 /* Pods-TgIosLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TgIosLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65ABEF7591480FFB4D8905E8E14357EC /* TgIosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TgIosLib.framework; path = TgIosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ABEF7591480FFB4D8905E8E14357EC /* TgIosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TgIosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		712BF188758B3CCCC729C515B48A4EAA /* Pods-TgIosLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TgIosLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		77A6A8A3B4349597894569BDD61A4F48 /* Pods-TgIosLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TgIosLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,19 +88,33 @@
 		89588167A54D933D1B5E8435063B2DF2 /* Pods-TgIosLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TgIosLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8B1E5E0078689590C57DFD2FA077842E /* Pods-TgIosLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TgIosLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		90F2317A03180D3CBBD3D42AA32A68E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A82314A82146151B0038D54C /* UIViewController+swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
+		A82314A92146151B0038D54C /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		A82314AA2146151B0038D54C /* UIView+Efficiency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Efficiency.m"; sourceTree = "<group>"; };
+		A82314AB2146151C0038D54C /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		A82314AC2146151C0038D54C /* UtilHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilHeader.h; sourceTree = "<group>"; };
+		A82314AD2146151C0038D54C /* UIView+Efficiency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Efficiency.h"; sourceTree = "<group>"; };
+		A82314AE2146151C0038D54C /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		A82314AF2146151C0038D54C /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		A82314B02146151C0038D54C /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		A82314B12146151D0038D54C /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		A82314B22146151D0038D54C /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		A82314B32146151D0038D54C /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		A82314B42146151D0038D54C /* UIViewController+swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		A82314B52146151D0038D54C /* UILabel+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utils.m"; sourceTree = "<group>"; };
+		A82314B62146151E0038D54C /* UILabel+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utils.h"; sourceTree = "<group>"; };
 		BA83872E7AD40B523D95F3A7DB1683D6 /* Pods-TgIosLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TgIosLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BC8178650BFE77DF6BCFC94E87E53DBB /* TgIosLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TgIosLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC8178650BFE77DF6BCFC94E87E53DBB /* TgIosLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TgIosLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6704728E4914506FB96432291E7C9C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8DBB45BCDC10336EE6C5B258E713E89 /* Pods_TgIosLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TgIosLib_Example.framework; path = "Pods-TgIosLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DBB45BCDC10336EE6C5B258E713E89 /* Pods_TgIosLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TgIosLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84BD25B5F429C63F19D0A39606AF37A /* TgIosLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TgIosLib.xcconfig; sourceTree = "<group>"; };
 		DA912D3FD0D64788A4225713EE610370 /* TgIosLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TgIosLib.modulemap; sourceTree = "<group>"; };
-		EC248738D25BDFEE03350B9C811F90E7 /* Pods_TgIosLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TgIosLib_Tests.framework; path = "Pods-TgIosLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1219766319367D7992AD9E7AF7BBF6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TgIosLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EC248738D25BDFEE03350B9C811F90E7 /* Pods_TgIosLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TgIosLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F213C95444241EAD391C055FEE4CCBF3 /* Pods-TgIosLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TgIosLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4540FEA7E7E03A7EC78FB3F2B1C9064 /* Pods-TgIosLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TgIosLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F98043D4085D9EA04A6138EB9A8743B6 /* Pods-TgIosLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TgIosLib_Example-resources.sh"; sourceTree = "<group>"; };
-		FF3F2FBA8215E89E55C8A53F49150796 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FF3F2FBA8215E89E55C8A53F49150796 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +208,21 @@
 		821DEBA29A06648B0ECB1D394771D8D5 /* TgIosLib */ = {
 			isa = PBXGroup;
 			children = (
-				EF1219766319367D7992AD9E7AF7BBF6 /* ReplaceMe.m */,
+				A82314B02146151C0038D54C /* NSString+Util.h */,
+				A82314A92146151B0038D54C /* NSString+Util.m */,
+				A82314AB2146151C0038D54C /* UIColor+Utils.h */,
+				A82314B12146151D0038D54C /* UIColor+Utils.m */,
+				A82314B32146151D0038D54C /* UIImage+Utils.h */,
+				A82314AE2146151C0038D54C /* UIImage+Utils.m */,
+				A82314B62146151E0038D54C /* UILabel+Utils.h */,
+				A82314B52146151D0038D54C /* UILabel+Utils.m */,
+				A82314AD2146151C0038D54C /* UIView+Efficiency.h */,
+				A82314AA2146151B0038D54C /* UIView+Efficiency.m */,
+				A82314B22146151D0038D54C /* UIView+ViewController.h */,
+				A82314AF2146151C0038D54C /* UIView+ViewController.m */,
+				A82314B42146151D0038D54C /* UIViewController+swizzling.h */,
+				A82314A82146151B0038D54C /* UIViewController+swizzling.m */,
+				A82314AC2146151C0038D54C /* UtilHeader.h */,
 				D95033B6ADF0E125EA7E5C366FE78B46 /* Pod */,
 				1AC9671EEADD5FDCE12590926CD72992 /* Support Files */,
 			);
@@ -234,6 +291,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82314D42146151E0038D54C /* UILabel+Utils.h in Headers */,
+				A82314CE2146151E0038D54C /* UIImage+Utils.h in Headers */,
+				A82314CC2146151E0038D54C /* UIView+ViewController.h in Headers */,
+				A82314C02146151E0038D54C /* UtilHeader.h in Headers */,
+				A82314D02146151E0038D54C /* UIViewController+swizzling.h in Headers */,
+				A82314BE2146151E0038D54C /* UIColor+Utils.h in Headers */,
+				A82314C82146151E0038D54C /* NSString+Util.h in Headers */,
+				A82314C22146151E0038D54C /* UIView+Efficiency.h in Headers */,
 				9CBDB76EB1FFF75A08C31C96E2CBC711 /* TgIosLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +315,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82314D32146151E0038D54C /* UILabel+Utils.h in Headers */,
+				A82314CD2146151E0038D54C /* UIImage+Utils.h in Headers */,
+				A82314CB2146151E0038D54C /* UIView+ViewController.h in Headers */,
+				A82314BF2146151E0038D54C /* UtilHeader.h in Headers */,
+				A82314CF2146151E0038D54C /* UIViewController+swizzling.h in Headers */,
+				A82314BD2146151E0038D54C /* UIColor+Utils.h in Headers */,
+				A82314C72146151E0038D54C /* NSString+Util.h in Headers */,
+				A82314C12146151E0038D54C /* UIView+Efficiency.h in Headers */,
 				4BD7D2BB2DFEBC16BA4B19305C4C190D /* Pods-TgIosLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +416,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82314C92146151E0038D54C /* UIColor+Utils.m in Sources */,
+				A82314B72146151E0038D54C /* UIViewController+swizzling.m in Sources */,
+				A82314B92146151E0038D54C /* NSString+Util.m in Sources */,
 				45F656E8EFFEE16672C6036061567412 /* Pods-TgIosLib_Example-dummy.m in Sources */,
+				A82314D12146151E0038D54C /* UILabel+Utils.m in Sources */,
+				A82314C52146151E0038D54C /* UIView+ViewController.m in Sources */,
+				A82314BB2146151E0038D54C /* UIView+Efficiency.m in Sources */,
+				A82314C32146151E0038D54C /* UIImage+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +431,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBA2EB2117F1B0AFA25B5CDD48FF1ED /* ReplaceMe.m in Sources */,
+				A82314D22146151E0038D54C /* UILabel+Utils.m in Sources */,
+				A82314C62146151E0038D54C /* UIView+ViewController.m in Sources */,
 				7F9971DD1C020EA84BACCEFFB4048766 /* TgIosLib-dummy.m in Sources */,
+				A82314CA2146151E0038D54C /* UIColor+Utils.m in Sources */,
+				A82314B82146151E0038D54C /* UIViewController+swizzling.m in Sources */,
+				A82314C42146151E0038D54C /* UIImage+Utils.m in Sources */,
+				A82314BA2146151E0038D54C /* NSString+Util.m in Sources */,
+				A82314BC2146151E0038D54C /* UIView+Efficiency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
