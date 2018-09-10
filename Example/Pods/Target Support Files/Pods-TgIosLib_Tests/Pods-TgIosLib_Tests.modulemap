@@ -1,0 +1,6 @@
+framework module Pods_TgIosLib_Tests {
+  umbrella header "Pods-TgIosLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
